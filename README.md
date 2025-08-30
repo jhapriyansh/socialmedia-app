@@ -38,7 +38,7 @@ A modern social media web application built with React, Vite, Tailwind CSS, and 
 
     ```sh
     git clone https://github.com/jhapriyansh/socialmedia-app
-    cd SocialMedia-App/Frontend
+    cd socialmedia-app
     ```
 
 2.  **Install dependencies:**
@@ -103,10 +103,5 @@ postcss.config.js
 - **API URLs:** Change API endpoints in your `.env` file. 🔗
 - **Assets:** Update images in `src/assets/` as needed. 📁
 
-## License 📄
-
-This project is for educational purposes.
-
----
 
 **Note:** This is the frontend only. You need a compatible backend API for full functionality. A compatible backend can be found [here](https://www.google.com/search?q=https://github.com/jhapriyansh/socialmedia-app). 🤝
