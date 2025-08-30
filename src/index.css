@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-autofill:-webkit-autofill,
+.custom-autofill:-webkit-autofill:hover,
+.custom-autofill:-webkit-autofill:focus,
+.custom-autofill:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #181818 inset !important;
+  -webkit-text-fill-color: #eee !important;
+}
+
+.italianno-regular {
+  font-family: "Italianno", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent; /* Track background */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.295); /* Scrollbar color */
+  border-radius: 4px; /* Rounded edges */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.393); /* Darker color on hover */
+}
