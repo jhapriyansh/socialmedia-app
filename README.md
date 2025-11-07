@@ -103,4 +103,4 @@ postcss.config.js
 - **API URLs:** Change API endpoints in your `.env` file. 🔗
 - **Assets:** Update images in `src/assets/` as needed. 📁
 
-**Note:** This is the frontend only. You need a compatible backend API for full functionality. A compatible backend can be found here: https://github.com/jhapriyansh/socialmedia-app 🤝
+**Note:** This is the frontend only. You need a compatible backend API for full functionality. A compatible backend can be found here: https://github.com/jhapriyansh/socialmedia-app-backend 🤝
